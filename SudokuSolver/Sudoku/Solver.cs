@@ -38,6 +38,8 @@ namespace SudokuSolver.Sudoku
             List<Sudoku> invalid = helper.validBoard(board, true);
             if(invalid.Count == 0)
             {
+                GameSettings.isRunning = true;
+
                 BackgroundWorker bw = new BackgroundWorker();
                 bw.RunWorkerAsync();
                 bw.DoWork += bw_DoWork;
@@ -61,6 +63,7 @@ namespace SudokuSolver.Sudoku
         /// <param name="e"></param>
         void bw_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
+            GameSettings.isRunning = false;
             main.Draw(board, boardSet);
         }
 

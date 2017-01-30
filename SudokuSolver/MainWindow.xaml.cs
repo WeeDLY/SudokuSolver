@@ -234,6 +234,8 @@ namespace SudokuSolver
         /// <param name="e"></param>
         private void btnClear_Click(object sender, RoutedEventArgs e)
         {
+            GameSettings.isRunning = false;
+
             progressBar.Value = progressBar.Minimum;
             for (int col = 0; col < GameSettings.colSize; col++)
             {
@@ -301,6 +303,14 @@ namespace SudokuSolver
         /// <param name="e"></param>
         private void menuSettingsGame_Click(object sender, RoutedEventArgs e)
         {
+            if (GameSettings.isRunning)
+            {
+                string body = LanguageReader.GetText("gameInstanceRunningBody", InterfaceSettings.selectedLanguage);
+                string title = LanguageReader.GetText("gameInstanceRunningTitle", InterfaceSettings.selectedLanguage);
+                MessageBox.Show(title, body, MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
             GameSettingsWindow gsw = new GameSettingsWindow();
             gsw.Owner = this;
             gsw.ShowDialog();

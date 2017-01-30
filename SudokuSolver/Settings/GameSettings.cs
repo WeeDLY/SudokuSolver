@@ -13,5 +13,7 @@ namespace SudokuSolver.Settings
         public const int maxColSize = 12;
         public const int maxRowSize = 12;
         public const int maxGridSize = 12;
+
+        public static bool isRunning = false;
     }
 }

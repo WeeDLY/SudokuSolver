@@ -1,140 +1,151 @@
 {
-  "mainWindowTitle":{
-    "English":"Sudoku Solver",
-    "Norsk":"Sudoku Løser",
-    "Español":"Sudoku Resolver"
-  },
+    "mainWindowTitle": {
+        "English": "Sudoku Solver",
+        "Norsk": "Sudoku Løser",
+        "Español": "Sudoku Resolver"
+    },
 
-  "aboutDescription":{
-    "English":"This program solves Sudoku puzzles.\nYou can also customize the columns, rows, grid and number values after your wish.",
-    "Norsk":"Dette programmet løser Sudoku oppgaver.\nDu kan også endre kolonner, rader, rutenett og tallverdier etter ditt ønske.",
-    "Español":"Este programa resuelve puzzles de Sudoku.\nTambién puede personalizar las columnas, filas, cuadrícula y valores de números después de su deseo."
-  },
+    "aboutDescription": {
+        "English": "This program solves Sudoku puzzles.\nYou can also customize the columns, rows, grid and number values after your wish.",
+        "Norsk": "Dette programmet løser Sudoku oppgaver.\nDu kan også endre kolonner, rader, rutenett og tallverdier etter ditt ønske.",
+        "Español": "Este programa resuelve puzzles de Sudoku.\nTambién puede personalizar las columnas, filas, cuadrícula y valores de números después de su deseo."
+    },
 
-  "menuAbout":{
-    "English":"About",
-    "Norsk":"Om",
-    "Español":"Acerca de"
-  },
+    "menuAbout": {
+        "English": "About",
+        "Norsk": "Om",
+        "Español": "Acerca de"
+    },
 
-  "menuSettings":{
-    "English":"Settings",
-    "Norsk":"Instillinger",
-    "Español":"Ajustes"
-  },
-  "menuSettingsGame":{
-    "English":"Game",
-    "Norsk":"Spill",
-    "Español":"Juego"
-  },
-  "menuSettingsGUI":{
-    "English":"Interface",
-    "Norsk":"Brukergrensesnitt",
-    "Español":"Interfaz"
-  },
+    "menuSettings": {
+        "English": "Settings",
+        "Norsk": "Instillinger",
+        "Español": "Ajustes"
+    },
+    "menuSettingsGame": {
+        "English": "Game",
+        "Norsk": "Spill",
+        "Español": "Juego"
+    },
+    "menuSettingsGUI": {
+        "English": "Interface",
+        "Norsk": "Brukergrensesnitt",
+        "Español": "Interfaz"
+    },
 
-  "btnGo":{
-    "English":"Solve!",
-    "Norsk":"Løs!",
-    "Español":"Resolver!"
-  },
+    "btnGo": {
+        "English": "Solve!",
+        "Norsk": "Løs!",
+        "Español": "Resolver!"
+    },
 
-  "btnClear":{
-    "English":"Clear",
-    "Norsk":"Fjern",
-    "Español":"Claro"
-  },
+    "btnClear": {
+        "English": "Clear",
+        "Norsk": "Fjern",
+        "Español": "Claro"
+    },
 
-  "gswHeader":{
-    "English":"Game Settings",
-    "Norsk":"Spill Instillinger",
-    "Español":"Configuraciones de Juego"
-  },
+    "gswHeader": {
+        "English": "Game Settings",
+        "Norsk": "Spill Instillinger",
+        "Español": "Configuraciones de Juego"
+    },
 
-  "lblColumns":{
-    "English":"Columns:",
-    "Norsk":"Kolonner:",
-    "Español":"Columnas"
-  },
+    "lblColumns": {
+        "English": "Columns:",
+        "Norsk": "Kolonner:",
+        "Español": "Columnas"
+    },
 
-  "lblRows":{
-    "English":"Rows:",
-    "Norsk":"Rader:",
-    "Español":"Filas"
-  },
+    "lblRows": {
+        "English": "Rows:",
+        "Norsk": "Rader:",
+        "Español": "Filas"
+    },
 
-  "lblGrid":{
-    "English":"Grid:",
-    "Norsk":"Rutenett:",
-    "Español":"Cuadrícula"
-  },
+    "lblGrid": {
+        "English": "Grid:",
+        "Norsk": "Rutenett:",
+        "Español": "Cuadrícula"
+    },
 
-  "lblMin":{
-    "English":"Minimum:",
-    "Norsk":"Minimum:",
-    "Español":"Mínimo"
-  },
+    "lblMin": {
+        "English": "Minimum:",
+        "Norsk": "Minimum:",
+        "Español": "Mínimo"
+    },
 
-  "lblMax":{
-    "English":"Maximum:",
-    "Norsk":"Maximum:",
-    "Español":"Máximo"
-  },
+    "lblMax": {
+        "English": "Maximum:",
+        "Norsk": "Maximum:",
+        "Español": "Máximo"
+    },
 
-  "gameSettingsTitle":{
-    "English":"Game Settings",
-    "Norsk":"Spill Instillinger",
-    "Español":"Configuraciones de Juego"
-  },
+    "gameSettingsTitle": {
+        "English": "Game Settings",
+        "Norsk": "Spill Instillinger",
+        "Español": "Configuraciones de Juego"
+    },
 
-  "errorCol":{
-    "English":"Max size for columns is: ",
-    "Norsk":"Max størrelse for kolonner er: ",
-    "Español":"El tamaño máximo de las columnas es: "
-  },
-  "errorRow":{
-    "English":"Max size for rows is: ",
-    "Norsk":"Max størrelse for rader er: ",
-    "Español":"El tamaño máximo de las columnas es: "
+    "errorCol": {
+        "English": "Max size for columns is: ",
+        "Norsk": "Max størrelse for kolonner er: ",
+        "Español": "El tamaño máximo de las columnas es: "
+    },
+    "errorRow": {
+        "English": "Max size for rows is: ",
+        "Norsk": "Max størrelse for rader er: ",
+        "Español": "El tamaño máximo de las columnas es: "
 
-  },
-  "errorGrid":{
-    "English":"Max size for grids is: ",
-    "Norsk":"Max størrelse for rutenett er: ",
-    "Español":"El tamaño máximo para las: "
-  },
-  "errorDifference":{
-    "English":"Difference between minimum and maximum has to be atleast: ",
-    "Norsk":"Forskjellen mellom minimum og maximum må minst være: ",
-    "Español":"La diferencia entre mínimo y máximo tiene que ser al menos: "
-  },
+    },
+    "errorGrid": {
+        "English": "Max size for grids is: ",
+        "Norsk": "Max størrelse for rutenett er: ",
+        "Español": "El tamaño máximo para las: "
+    },
+    "errorDifference": {
+        "English": "Difference between minimum and maximum has to be atleast: ",
+        "Norsk": "Forskjellen mellom minimum og maximum må minst være: ",
+        "Español": "La diferencia entre mínimo y máximo tiene que ser al menos: "
+    },
 
-  "gameSettingsAppliedHeader":{
-    "English":"Settings Applied!",
-    "Norsk":"Instillinger lagret!",
-    "Español":"Ajustes aplicados!"
-  },
-  "gameSettingsApplied":{
-    "English":"New settings applied successfully!",
-    "Norsk":"Nye instillinger tatt i bruk!",
-    "Español":"Nuevas configuraciones aplicadas correctamente!"
-  },
+    "gameSettingsAppliedHeader": {
+        "English": "Settings Applied!",
+        "Norsk": "Instillinger lagret!",
+        "Español": "Ajustes aplicados!"
+    },
+    "gameSettingsApplied": {
+        "English": "New settings applied successfully!",
+        "Norsk": "Nye instillinger tatt i bruk!",
+        "Español": "Nuevas configuraciones aplicadas correctamente!"
+    },
 
-  "btnApply":{
-    "English":"Apply",
-    "Norsk":"Lagre",
-    "Español":"Aplicar"
-  },
+    "btnApply": {
+        "English": "Apply",
+        "Norsk": "Lagre",
+        "Español": "Aplicar"
+    },
 
-  "btnCancel":{
-    "English":"Cancel",
-    "Norsk":"Annulere",
-    "Español":"Cancelar"
-  },
+    "btnCancel": {
+        "English": "Cancel",
+        "Norsk": "Annulere",
+        "Español": "Cancelar"
+    },
 
-  "interfaceSettingsWindow":{
-    "English":"Interface Settings",
-    "Norsk":"Brukergrensesnitt instillinger",
-    "Español":"Configuración de la interfaz"
-  }
+    "interfaceSettingsWindow": {
+        "English": "Interface Settings",
+        "Norsk": "Brukergrensesnitt instillinger",
+        "Español": "Configuración de la interfaz"
+    },
+
+    "gameInstanceRunningBody": {
+        "English": "SudokuSolver is already solving a board. Wait for it to finish or press \"Clear\"",
+        "Norsk": "SudokuLøser løser et brett allerede. Vent til den er ferdig eller press \"Annulere\"",
+        "Español": "SudokuSolver ya está resolviendo un tablero. Espere a que finalice o presione \"Cancelar\""
+    },
+    "gameInstanceRunningTitle": {
+        "English": "SudokuSolver",
+        "Norsk": "SudokuLøser",
+        "Español": "SudokuResolver"
+    }
 }
