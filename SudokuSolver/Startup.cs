@@ -18,7 +18,7 @@ namespace SudokuSolver
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.0.0.0")]
         public static void Main()
         {
-            // Event, when it misses a dll and loads it from the assemly, as it's an embedded resource.
+            // Event, when it misses a dll, loads it from the assemly, as it's an embedded resource.
             AppDomain.CurrentDomain.AssemblyResolve += OnResolveAssembly;
 
             SudokuSolver.App app = new SudokuSolver.App();
