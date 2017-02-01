@@ -169,7 +169,7 @@ namespace SudokuSolver.Settings
                     sh.imgControl.Source = sh.image;
                     sb.Append(sh.msg + "\n");
                 }
-                MessageBox.Show(sb.ToString());
+                MessageBox.Show(sb.ToString(), LanguageReader.GetText("gameSettingsTitle", InterfaceSettings.selectedLanguage), MessageBoxButton.OK, MessageBoxImage.Warning);
             }
         }
 
