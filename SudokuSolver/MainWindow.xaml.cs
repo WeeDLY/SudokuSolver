@@ -307,7 +307,7 @@ namespace SudokuSolver
             {
                 string body = LanguageReader.GetText("gameInstanceRunningBody", InterfaceSettings.selectedLanguage);
                 string title = LanguageReader.GetText("gameInstanceRunningTitle", InterfaceSettings.selectedLanguage);
-                MessageBox.Show(title, body, MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show(body, title, MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
 

@@ -140,8 +140,8 @@
 
     "gameInstanceRunningBody": {
         "English": "SudokuSolver is already solving a board. Wait for it to finish or press \"Clear\"",
-        "Norsk": "SudokuLøser løser et brett allerede. Vent til den er ferdig eller press \"Annulere\"",
-        "Español": "SudokuSolver ya está resolviendo un tablero. Espere a que finalice o presione \"Cancelar\""
+        "Norsk": "SudokuLøser løser et brett allerede. Vent til den er ferdig eller press \"Fjern\"",
+        "Español": "SudokuSolver ya está resolviendo un tablero. Espere a que finalice o presione \"Claro\""
     },
     "gameInstanceRunningTitle": {
         "English": "SudokuSolver",
